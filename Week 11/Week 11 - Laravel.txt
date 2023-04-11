@@ -1,0 +1,53 @@
+Week - 11
+-------------------------------------------
+1- https://getcomposer.org/download/ ->
+2- Descargar composer-Setup.exe
+3- composer->terminal 
+4- Install laravel->consola "D:"
+composer create-project laravel/laravel
+comp
+5- Abrir el proyecto
+
+primera forma: 
+cd .\public\
+php -S 127.0.0.1:8000
+
+salir->cd..
+
+Segunda forma: 
+php artisan serve -> no visual code = terminal 
+
+vista: 
+router->web.php
+
+////////////////////////////////////////
+Week 12
+////////////////////////////////////////
+php artisan make:migration create_pets_table ->
+crea la tabla de migraion 
+
+php artisan migrate -> hace la migracion
+de las tablas 
+
+php artisan migrate:status -> mira la migracion 
+
+php artisan migrate:rollback -> regresa al estado 
+anterior 
+
+php artisan migrate:reset
+
+php artisan make:model ("Nombre") -> crea un modelo
+
+php artisan make.controller ("Nombre") -> Crea un control 
+
+php artisan make.controller ("Nombre") -r
+
+php artisan router:list -> verifica las 
+rutas activas 
+
+///////////////////////////////////////////////////
+Week 13
+///////////////////////////////////////////////////
+
+- Crear la base de dato 
+- visual code: .env -> database: "poner el nombre de la base de dato"
